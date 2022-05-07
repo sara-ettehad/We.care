@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap');
+
+*,
+
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    -webkit-box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #0d47a1;
+    --dark-color: #0f2443;
+    --accent-color: #e2eafc;
+    --light-color: #f8f9fa;
+    --secondary-color: #e5e5e5;
+    --grey-color: #b0bbbf;
+    --darkgrey-color: #8e9aaf;
+
+    --border-radius-tiny:0.12rem;
+    --border-radius-xs:0.25rem;
+    --border-radius-sm:0.5rem;
+    --border-radius-md:1rem;
+    --border-radius-lg:1.5rem;
+    --border-radius-xl:2rem;
+    --border-radius-2xl:2.5rem;
+    --border-radius-3xl:3rem;
+
+    --font-size-xs:0.5rem;
+    --font-size-sm:0.75rem;
+    --font-size-md:1rem;
+    --font-size-lg:1.25rem;
+    --font-size-xl:1.5rem;
+    --font-size-2xl:2rem;
+    --font-size-3xl:3.5rem;
+    --font-size-4xl: 4.5rem;
+}
+
+i{
+    padding: 0 6px;
+}
+
+/* px , rem , em , pt , percent */
+html{
+    font-size: 62.5%;
+    font-family: "Poppins", "Segoe UI", "Open Sans", "Poppins", "Roboto", Tahoma, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    color: var(--dark-color);
+}
+
+body{
+    font-size: 1.5rem;
+    background: var(--light-color);
+}
+
+button{
+    cursor: pointer;
+    font-family: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding: 0 1rem ;
+}
+
+.btn{
+    font-family: inherit;
+    padding: 1rem 1.5rem;
+    border-radius: var(--border-radius-sm);
+    width: auto;
+    outline: 0;
+    box-sizing: none;
+    border: solid;
+    transition: all .3s ease;
+    -webkit-transition: all 0.5s ease;
+    background-color: var(--primary-color);
+    box-shadow: inset 1 1 0.2rem var(--primary-color);
+}
+
+/* BEM */   
+
+.btn-primary{
+    color:  var(--light-color);
+}
+
+.btn-primary:hover{
+    background-color: transparent;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+    box-shadow: inset 0 0 0.2rem var(--primary-color);
+    border-color: var(--primary-color);
+}

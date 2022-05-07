@@ -1,0 +1,126 @@
+.find__wrapper{
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    top: -180px;
+    padding: 30px 50px;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    align-items: center;
+}
+
+.find__item--left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 60px;
+}
+
+.item__demo--rows{
+    display: flex;
+    flex-direction: row;
+}
+
+.demo--icon{
+    margin-right: 15px;
+}
+
+.rotate{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    
+}
+
+.find-rot{
+    position: relative;
+    top: 22px;
+    left: 0px;
+    height: 0.75px;
+    width: 40px;
+    color: var(--grey-color);
+}
+
+.find__item--left h1{
+    font-size: var(--font-size-4xl);
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 2.5rem;
+    line-height: 6rem;
+}
+
+.find__item--left p{
+    color: var(--dark-color);
+    font-size: var(--font-size-xl);
+    margin-left: 3px;
+    margin-bottom: 2.5rem;
+    color: var(--darkgrey-color);
+}
+
+.left--item__demo{
+    display: flex;
+    flex-direction: row;
+}
+
+.find__item--right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.find__item--right img{
+    position: relative;
+    top: -170px;
+    width: 650px;
+}
+
+.item__right--findbest{
+    position: relative;
+    top: 260px;
+    left: -120px;
+    height: 250px;
+    padding: 10px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--light-color);
+    border-radius: var(--border-radius-md);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1rem 1rem 9rem 1rem var(--secondary-color);
+    -webkit-box-shadow: 1rem 1rem 9rem 1rem var(--secondary-color);
+    transform: translateY(-2rem);
+    z-index: 800;
+}
+.input-findbest{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input-find{
+    padding:12px 25px;
+    width: 160px;
+    height: 40px;
+}
+
+.doctor{
+    position: relative;
+    left: -27px;
+}
+
+.location{
+    position: relative;
+    left: -23px;
+}
+
+.find__icon{
+    z-index: 999;
+}
+
+.btn-find-search{
+    margin-top: 10px;
+}
