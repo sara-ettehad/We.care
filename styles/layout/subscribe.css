@@ -1,0 +1,32 @@
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe__wrapper{
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius-md);
+    width: 700px;
+    height: auto;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.subscribe__wrapper h2{
+    margin-bottom: 20px;
+}
+
+.input-subscribe{
+    border-radius: var(--border-radius-sm);
+    background-color: var(--light-color);
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+    margin-left: 100px;
+    border: none;
+}

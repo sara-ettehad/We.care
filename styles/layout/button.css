@@ -52,3 +52,10 @@
     background-color: rgb(237, 245, 226);
     color: rgb(22, 146, 22);
 }
+
+.btn-subscribe{
+    background-color: var(--dark-color);
+    position: relative;
+    right: 100px;
+    top: 2px;
+}
