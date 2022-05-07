@@ -2,7 +2,7 @@
     margin-left: 0px;
     margin-right: 0px;
     position: relative;
-    top: -180px;
+    top: -300px;
     padding: 30px 50px;
     justify-content: space-around;
     display: grid;
@@ -72,14 +72,15 @@
 
 .find__item--right img{
     position: relative;
-    top: -170px;
+    top: -300px;
+    left: -30px;
     width: 650px;
 }
 
 .item__right--findbest{
     position: relative;
-    top: 260px;
-    left: -120px;
+    top: 350px;
+    left: -140px;
     height: 250px;
     padding: 10px;
     width: 180px;
@@ -123,4 +124,16 @@
 
 .btn-find-search{
     margin-top: 10px;
+}
+
+.find-back{
+    position: relative;
+    top: 100px;
+    background-color: #ccdbfd;
+    height: 300px;
+    width:300px;
+    border-radius: 40px;
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
 }

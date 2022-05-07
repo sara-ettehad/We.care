@@ -1,7 +1,7 @@
 #footer{
-    min-height: 45vh;
+    min-height: 400px;
+    height: 100%;
     position: relative;
-    top: 100px;
     transition: all 0.3s ease-in-out;
     box-shadow: 1rem 1rem 4rem 1rem var(--secondary-color);
     -webkit-box-shadow: 1rem 1rem 4rem 1rem var(--secondary-color);
@@ -108,6 +108,9 @@
     font-size: medium;
 }
 .footer-logo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
     margin-left: 5px;
 }
 
@@ -121,4 +124,8 @@
 
 .socials i:hover{
     font-size: larger;
+}
+
+.second-grid{
+    margin-left: 50px;
 }

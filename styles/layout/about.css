@@ -1,7 +1,7 @@
 .about__wrapper{
     position: relative;
     height: 460px;
-    top: -260px;
+    top: -500px;
     background-color: var(--accent-color);
     margin-left: 0px;
     margin-right: 0px;
@@ -16,7 +16,7 @@
 .about--right{
     position: relative;
     right: -300px;
-    top: -130px;
+    top: -310px;
 }
 
 .about__box{
@@ -55,7 +55,7 @@
 
 .doctor3{
     position: relative;
-    top: -220px;
+    top: -640px;
     width: 680px;
     height: 470px;
 }
@@ -74,4 +74,15 @@
 
 .fa-circle-check{
     color: var(--primary-color);
+}
+
+.image-back{
+    position: relative;
+    left: 200px;
+    top: -170px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 10%;
+    background-color: #ccdbfd;
+    height: 420px;
+    width: 280px;
 }

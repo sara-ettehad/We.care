@@ -47,7 +47,20 @@
 }
 
 .hero__item--right img{
-    width: 800px;
+    height: 400px;
+    width: 500px;
+    position: relative;
+    right: 610px;
+}
+
+.hero__item--right i{
+    color: var(--primary-color);
+    background-color: aliceblue;
+    border-radius: 50%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fa-thumbs-up{
@@ -56,4 +69,93 @@
 
 .fa-user-doctor{
     color: rgb(255, 255, 0);
+}
+
+.load-1{
+    position: relative;
+    left: 80px;
+    top: 20px;
+}
+
+.ring-1 {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    border: 1px solid #90e0ef;
+    border-radius: 100%;
+}
+  
+.syringe-holder {
+    position: relative;
+    width: 150px;
+    height: 300px;
+    left: 80px;
+    top: 0px;
+}
+  
+.fa-syringe {
+    position: relative;
+    top: -11px;
+    left: 0;
+    width: 30px;;
+}
+
+.load-1 .syringe-holder {
+  animation: loading 4.3s linear infinite;
+}  
+
+
+.fa-capsules{
+    position: relative;
+    top: 200px;
+    left: 150px;
+}
+
+.load-5{
+    position: relative;
+    right: 220px;
+    top: 70px;
+}
+
+.ring-2 {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    border: 1px solid #90e0ef;
+    border-radius: 100%;
+}
+  
+.stethoscope-holder {
+    position: relative;
+    width: 118px;
+    height: 220px;
+    left: 45px;
+    top: 0px;
+}
+  
+.fa-stethoscope {
+    position: relative;
+    top: -11px;
+    left: 0;
+    width: 30px;;
+}
+
+.load-5 .stethoscope-holder {
+  animation: loading 3.3s linear infinite;
+}  
+
+@keyframes loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+.fa-hospital{
+    position: relative;
+    right: 530px;
 }

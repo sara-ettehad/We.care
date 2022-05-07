@@ -69,6 +69,7 @@
 }
 
 .suggestion__more:hover{
+    cursor: pointer;
     color: var(--light-color);
     background-color: var(--primary-color);
 }
