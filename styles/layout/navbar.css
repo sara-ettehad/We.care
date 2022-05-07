@@ -5,6 +5,14 @@
     align-items: flex-start;
 }
 
+.sticky-nav{
+  background-color: var();
+  position: fixed;
+  top: 10px;
+  left: 0;
+  right: 0;
+  }
+
 /*-----------------------navbar-----------------------*/
 
 .navbar--wrapper{
