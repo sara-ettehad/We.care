@@ -37,11 +37,22 @@
 
 .specialist-box img{
     background-color: var(--secondary-color);
-    height: 200px;
-    width: 180px;
+    height: 180px;
+    width: 190px;
     border-radius: var(--border-radius-md);
 }
 
 .specialist-box p{
     font-size: smaller;
+}
+
+.fa-circle{
+    color: var(--primary-color);
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
 }

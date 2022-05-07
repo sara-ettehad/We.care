@@ -1,0 +1,63 @@
+.patients{
+    position: relative;
+    top: -100px;
+}
+
+.patients__header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patients__wrapper{
+    position: relative;
+    padding: 30px 100px;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-gap: 270px;
+    align-items: center;
+}
+
+.patients--left img{
+    height: 300px;
+    width: 400px;
+}
+
+.right__account img{
+    height: 60px;
+    width: 60px;
+    border-radius: var(--border-radius-md);
+}
+
+.right__account{
+    display: flex;
+    flex-direction: row;
+}
+
+.right__account--detail{
+    margin-left: 8px;
+}
+
+.stars{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.fa-star{
+    font-size: small;
+    color: rgb(255, 230, 0);
+}
+
+.dots-patient{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+.details{
+    color: var(--grey-color);
+    margin-top: 15px;
+}
