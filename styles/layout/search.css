@@ -1,9 +1,12 @@
 .search__wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin: 0px 100px;
     padding: 35px;
     background-color: var(--light-color);
     position: relative;
-    top: -110px;
+    top: -60px;
     border-radius: var(--border-radius-md);
     height: auto;
     transition: all 0.3s ease-in-out;
@@ -17,6 +20,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .form__field{
@@ -32,14 +36,16 @@
 }
 
 .input-form{
-    padding: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    padding-left: 30px;
     color: var(--darkgrey-color);
     background-color: var(--light-color);
     border-color: var(--grey-color);
-    border-radius: var(--border-radius-sm);
+    border-radius: var(--border-radius-md);
     border-width: 1px;
     width: 390px;
-    height: 30px;
+    height: 20px;
     font-size: var(--font-size-lg);
 }
 
@@ -77,3 +83,18 @@
 .search__suggestions b{
     margin-left: 40px;
 }
+
+@media (max-width: 800px) {
+    .search__wrapper--buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }  
+    .second-input{
+        margin-left: 5px;
+    }
+
+    .btn-search{
+        width: 350px;
+    }
+} 

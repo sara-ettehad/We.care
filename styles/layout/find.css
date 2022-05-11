@@ -1,11 +1,9 @@
 .find__wrapper{
     margin-left: 0px;
     margin-right: 0px;
-    position: relative;
-    top: -300px;
-    padding: 30px 50px;
-    justify-content: space-around;
+    padding: 0px 50px;
     display: grid;
+    justify-content: space-around;
     grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
     align-items: center;
 }
@@ -66,21 +64,21 @@
 .find__item--right{
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 0px;
 }
 
 .find__item--right img{
     position: relative;
-    top: -300px;
-    left: -30px;
-    width: 650px;
+    top: 45px;
+    left: -185px;
+    width: 670px;
 }
 
 .item__right--findbest{
     position: relative;
-    top: 350px;
-    left: -140px;
+    top: 50px;
+    left: 70px;
     height: 250px;
     padding: 10px;
     width: 180px;

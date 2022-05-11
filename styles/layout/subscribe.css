@@ -1,9 +1,7 @@
 .subscribe{
-    position: relative;
-    top: -200px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin-left: 270px;
 }
 
 .subscribe__wrapper{
@@ -15,8 +13,6 @@
     padding: 20px 50px;
     display: flex;
     flex-direction: column;
-    justify-items: center;
-    align-items: center;
 }
 
 .subscribe__wrapper h2{

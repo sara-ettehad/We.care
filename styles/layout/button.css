@@ -26,6 +26,9 @@
 
 .btn-search{
     width: auto;
+    border-radius: var(--border-radius-md);
+    height: 45px;
+    margin-top: 10px;
 }
 
 .btn-find{

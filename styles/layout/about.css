@@ -1,16 +1,13 @@
 .about__wrapper{
     position: relative;
     height: 460px;
-    top: -500px;
     background-color: var(--accent-color);
     margin-left: 0px;
     margin-right: 0px;
-    position: relative;
     justify-content: space-around;
     align-items: center;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
-    align-items: center;
 }
 
 .about--right{

@@ -9,39 +9,37 @@
     <title>Medical</title>
 </head>
 <body>
-    <header id="header">
-        <div class="containerx">
-            <nav class="navbar--wrapper">
+    <header class="header">
+        <div class="container headerx">
+            <div class="header-wrapper">
+
                 <div class="navbar-left">
                     <div class="navbar-logo">
                         <img src="images/WeCare.jpg">
                         <h3>We.care</h3>
                     </div>
     
-                    <div class="navbar-nav">
-                        <ul class="nav-lists">
-                          <div class="submenu">
-                            <li class="nav-list"><a class="nav-link" href="">Find a Doctor</a>
-                                
-                            </li>
-                           </div>  
-                          <div class="submenu">
-                            <li class="nav-list"><a class="nav-link" href="">Find a Hospital</a>
-                                
-                            </li>
-                          </div>
-                          <div class="submenu">
-                            <li class="nav-list"><a class="nav-link" href="">Health A to Z</a>
-                                
-                            </li>
-                          </div>
-                          
-                        </ul>
-                    </div>
-    
+                    <ul class="nav-lists">
+                        <div class="submenu">
+                          <li class="nav-list"><a class="nav-link" href="">Find a Doctor</a>
+                              
+                          </li>
+                         </div>  
+                        <div class="submenu">
+                          <li class="nav-list"><a class="nav-link" href="">Find a Hospital</a>
+                              
+                          </li>
+                        </div>
+                        <div class="submenu">
+                          <li class="nav-list"><a class="nav-link" href="">Health A to Z</a>
+                              
+                          </li>
+                        </div>
+                        
+                    </ul>
                 </div>
                 
-                <div class="navbar-right">
+                <div class="navbar-button">
                     <div class="signin-up">
                         <button type="button" class="btn btn-primary navbar-btn">
                             Log in
@@ -51,7 +49,10 @@
                         </button>
                     </div>
                 </div>
-            </nav>
+                <div class="bar">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
         </div>
 
     </header>
@@ -59,44 +60,46 @@
     <main>
 
         <section id="hero">
-            <div class="hero__wrapper">
+            <div class="container">
+                <div class="hero__wrapper">
 
-                <div class="hero__item--left">
-                    <h1>
-                        Feel better about finding healthcare
-                    </h1>
-                    <p>At Healthcares, we take the guesswork out of finding the right doctors, hospital, and care for you and your family.</p>
-                    <div class="left--item__demo">
-                        <button type="button" class="btn btn-primary hero-btn">
-                            <i class="fa-solid fa-user-doctor"></i>
-                            Profile for Every Doctor in America
-                        </button>
-                        <button type="button" class="btn btn-primary hero-btn">
-                            <i class="fa-regular fa-thumbs-up"></i>
-                            More Than 10  Million Patient Ratings
-                        </button>
-                    </div>
-                </div>
-
-                <div class="hero__item--right" >
-                    <div class="load-1">
-                        <div class="ring-1">
-                            <div class="syringe-holder">
-                                <i class="fa-solid fa-syringe"></i>
-                            </div>
+                    <div class="hero__item--left">
+                        <h1>
+                            Feel better about finding healthcare
+                        </h1>
+                        <p>At Healthcares, we take the guesswork out of finding the right doctors, hospital, and care for you and your family.</p>
+                        <div class="left--item__demo">
+                            <button type="button" class="btn btn-primary hero-btn">
+                                <i class="fa-solid fa-user-doctor"></i>
+                                Profile for Every Doctor in America
+                            </button>
+                            <button type="button" class="btn btn-primary hero-btn">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                                More Than 10  Million Patient Ratings
+                            </button>
                         </div>
                     </div>
-                    
-                    <i class="fa-solid fa-capsules"></i>
-                    <div class="load-5">
-                        <div class="ring-2">
-                            <div class="stethoscope-holder">
-                                <i class="fa-solid fa-stethoscope"></i>
+    
+                    <div class="hero__item--right" >
+                        <div class="load-1">
+                            <div class="ring-1">
+                                <div class="syringe-holder">
+                                    <i class="fa-solid fa-syringe"></i>
+                                </div>
                             </div>
                         </div>
+                        
+                        <i class="fa-solid fa-capsules"></i>
+                        <div class="load-5">
+                            <div class="ring-2">
+                                <div class="stethoscope-holder">
+                                    <i class="fa-solid fa-stethoscope"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-hospital"></i>
+                        <img src="./images/doctor1.png">
                     </div>
-                    <i class="fa-solid fa-hospital"></i>
-                    <img src="./images/doctor1.png">
                 </div>
             </div>
 
@@ -113,7 +116,7 @@
                             <input type="search"  class="input-form" name="searchTerm" placeholder="Search Doctor, Conditions or Producers"/>
                         </div>
             
-                        <div class="form__field">
+                        <div class="form__field second-input">
                             <div class="form__icon">
                               <i class="fa-solid fa-location-dot"></i>
                             </div>
@@ -213,164 +216,168 @@
         </section>
 
         <section id="find">
-            <div class="find__wrapper">
+            <div class="container">
+                <div class="find__wrapper">
 
-                <div class="find__item--left">
-                    <h1>
-                        Find the right doctor right at your fingertips
-                    </h1>
-                    <p>Wecare gives you the tools and information you need to</p>
-                    <div class="left__item--demo">
-                        <div class="item__demo--rows">
-                            <div class="demo--icon">
-                                <button type="button" class="btn btn-find btn-glass">
+                    <div class="find__item--left">
+                        <h1>
+                            Find the right doctor right at your fingertips
+                        </h1>
+                        <p>Wecare gives you the tools and information you need to</p>
+                        <div class="left__item--demo">
+                            <div class="item__demo--rows">
+                                <div class="demo--icon">
+                                    <button type="button" class="btn btn-find btn-glass">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                    <hr class="rotate find-rot">
+                                </div>
+                                <div class="demo--text">
+                                    <h3>Search nearest hospital</h3>
+                                    <p>Find doctors and hospitals based on the factors that matter most to you.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="item__demo--rows">
+                                <div class="demo--icon">
+                                    <button type="button" class="btn btn-find btn-user">
+                                        <i class="fa-solid fa-user"></i>
+                                    </button>
+                                    <hr class="rotate find-rot">
+                                </div>
+                                <div class="demo--text">
+                                    <h3>Appointment with the best doctor</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sequi ipsum illum iste? Enim tempore blanditiis veniam qui quaerat nostrum magni, perferendis voluptatibus id dolor debitis obcaecati quia minus placeat!</p>
+                                </div>
+                            </div>
+    
+                            <div class="item__demo--rows">
+                                <div class="demo--icon">
+                                    <button type="button" class="btn btn-find btn-phone">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </button>
+                                    <hr class="rotate find-rot">
+                                </div>
+                                <div class="demo--text">
+                                    <h3>Get contact</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, eius.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="find__item--right" >
+                        <div class="item__right--findbest">
+                            <h3>Find the best doctor you need</h3>
+                            <div class="input-findbest">
+                                <div class="find__icon">
                                     <i class="fa-solid fa-magnifying-glass"></i>
-                                </button>
-                                <hr class="rotate find-rot">
+                                </div>
+                                <input type="search" class="input-find doctor" name="searchTerm" placeholder="Search Doctor"/>
                             </div>
-                            <div class="demo--text">
-                                <h3>Search nearest hospital</h3>
-                                <p>Find doctors and hospitals based on the factors that matter most to you.</p>
+                            <div class="input-findbest">
+                                <div class="find__icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <input type="location" class="input-find location" name="searchLocation" placeholder="Set location"/>
                             </div>
+                            <button type="submit" class="btn btn-primary btn-find-search">Search</button>
                         </div>
-                        
-                        <div class="item__demo--rows">
-                            <div class="demo--icon">
-                                <button type="button" class="btn btn-find btn-user">
-                                    <i class="fa-solid fa-user"></i>
-                                </button>
-                                <hr class="rotate find-rot">
-                            </div>
-                            <div class="demo--text">
-                                <h3>Appointment with the best doctor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sequi ipsum illum iste? Enim tempore blanditiis veniam qui quaerat nostrum magni, perferendis voluptatibus id dolor debitis obcaecati quia minus placeat!</p>
-                            </div>
-                        </div>
-
-                        <div class="item__demo--rows">
-                            <div class="demo--icon">
-                                <button type="button" class="btn btn-find btn-phone">
-                                    <i class="fa-solid fa-phone"></i>
-                                </button>
-                                <hr class="rotate find-rot">
-                            </div>
-                            <div class="demo--text">
-                                <h3>Get contact</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, eius.</p>
-                            </div>
-                        </div>
+                        <div class="find-back"></div>
+                        <div class="find-back-circule1"></div>
+                        <div class="find-back-circule2"></div>
+                        <img src="./images/doctor2.png">
                     </div>
-                </div>
-
-                <div class="find__item--right" >
-                    <div class="item__right--findbest">
-                        <h3>Find the best doctor you need</h3>
-                        <div class="input-findbest">
-                            <div class="find__icon">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </div>
-                            <input type="search" class="input-find doctor" name="searchTerm" placeholder="Search Doctor"/>
-                        </div>
-                        <div class="input-findbest">
-                            <div class="find__icon">
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                            <input type="location" class="input-find location" name="searchLocation" placeholder="Set location"/>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-find-search">Search</button>
-                    </div>
-                    <div class="find-back"></div>
-                    <div class="find-back-circule1"></div>
-                    <div class="find-back-circule2"></div>
-                    <img src="./images/doctor2.png">
                 </div>
             </div>
 
         </section>
 
         <section class="about">
-            <div class="about__wrapper">
-                <div class="about--left">
-                    <ul class="about__box">
-                        <li class="box__item">
-                          <div class="item__wrapper">
-                            <img src="./images/3-removebg-preview.png">
-                            <span class="item__text">Dr. Leslie</span>
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                          </div>
-                        </li>
+            <div class="container">
+                <div class="about__wrapper">
+                    <div class="about--left">
+                        <ul class="about__box">
+                            <li class="box__item">
+                              <div class="item__wrapper">
+                                <img src="./images/3-removebg-preview.png">
+                                <span class="item__text">Dr. Leslie</span>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                              </div>
+                            </li>
+                
+                            <li class="box__item">
+                              <div class="item__wrapper">
+                                <img src="./images/5-removebg-preview.png">
+                                <span class="item__text">Dr. Kathryn</span>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                              </div>
+                            </li>
+                
+                            <li class="box__item">
+                              <div class="item__wrapper">
+                                <img src="./images/6-removebg-preview.png">
+                                <span class="item__text">Dr. Robert</span>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                              </div>
+                            </li>
+                
+                            <li class="box__item">
+                              <div class="item__wrapper">
+                                <img src="./images/7-removebg-preview.png">
+                                <span class="item__text">Dr. Esther</span>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                              </div>
+                            </li>
+                
+                            <li class="box__item">
+                              <div class="item__wrapper">
+                                <img src="./images/8-removebg-preview.png">
+                                <span class="item__text">Dr. Albert</span>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                              </div>
+                            </li>
+                        </ul>
+                        <div class="image-back"></div>
+                        <img class="doctor3" src="./images/doctor3.png">
+                    </div>
+    
+                    <div class="about--right">
+                        <h1>Why you choose We.care</h1>
+                        <p>We.care gives you the tools and information you need to</p>
             
-                        <li class="box__item">
-                          <div class="item__wrapper">
-                            <img src="./images/5-removebg-preview.png">
-                            <span class="item__text">Dr. Kathryn</span>
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                          </div>
-                        </li>
+                        <ul class="about__list">
+                          <li class="about__item">
+                            <i class="fa-regular fa-circle-check"></i>
+                            24/7 access - reach out whenever you need.
+                          </li>
             
-                        <li class="box__item">
-                          <div class="item__wrapper">
-                            <img src="./images/6-removebg-preview.png">
-                            <span class="item__text">Dr. Robert</span>
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                          </div>
-                        </li>
+                          <li class="about__item">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Lorem ipsum dolor sit amet consectetur.
+                          </li>
             
-                        <li class="box__item">
-                          <div class="item__wrapper">
-                            <img src="./images/7-removebg-preview.png">
-                            <span class="item__text">Dr. Esther</span>
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                          </div>
-                        </li>
+                          <li class="about__item">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Lorem ipsum dolor sit amet consectetur.
+                          </li>
             
-                        <li class="box__item">
-                          <div class="item__wrapper">
-                            <img src="./images/8-removebg-preview.png">
-                            <span class="item__text">Dr. Albert</span>
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                          </div>
-                        </li>
-                    </ul>
-                    <div class="image-back"></div>
-                    <img class="doctor3" src="./images/doctor3.png">
+                          <li class="about__item">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Lorem ipsum dolor sit amet, consectetur.
+                          </li>
+            
+                          <li class="about__item">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Lorem ipsum dolor sit amet consectetur.
+                          </li>
+                        </ul>
+            
+                        <button type="button" class="btn btn-primary btn-about">Get Free Subscription</button>
+                      </div>
+                  
+    
                 </div>
-
-                <div class="about--right">
-                    <h1>Why you choose We.care</h1>
-                    <p>We.care gives you the tools and information you need to</p>
-        
-                    <ul class="about__list">
-                      <li class="about__item">
-                        <i class="fa-regular fa-circle-check"></i>
-                        24/7 access - reach out whenever you need.
-                      </li>
-        
-                      <li class="about__item">
-                        <i class="fa-regular fa-circle-check"></i>
-                        Lorem ipsum dolor sit amet consectetur.
-                      </li>
-        
-                      <li class="about__item">
-                        <i class="fa-regular fa-circle-check"></i>
-                        Lorem ipsum dolor sit amet consectetur.
-                      </li>
-        
-                      <li class="about__item">
-                        <i class="fa-regular fa-circle-check"></i>
-                        Lorem ipsum dolor sit amet, consectetur.
-                      </li>
-        
-                      <li class="about__item">
-                        <i class="fa-regular fa-circle-check"></i>
-                        Lorem ipsum dolor sit amet consectetur.
-                      </li>
-                    </ul>
-        
-                    <button type="button" class="btn btn-primary btn-about">Get Free Subscription</button>
-                  </div>
-              
-
             </div>
         </section>
 
@@ -465,15 +472,17 @@
                 </div>
             </div>
         </section>
+
         <section class="subscribe">
-            <div class="subscribe__wrapper">
-                <h2>Subscribe for any news update from wecare</h2>
-                <div class="subscribe__input">
-                    <input type="search"  class="input-subscribe" name="searchTerm" placeholder="Enter your email address"/>
-                    <button type="button" class="btn btn-primary btn-subscribe">subscribe</button>
+            <div class="container">
+                <div class="subscribe__wrapper">
+                    <h2>Subscribe for any news update from wecare</h2>
+                    <div class="subscribe__input">
+                        <input type="search"  class="input-subscribe" name="searchTerm" placeholder="Enter your email address"/>
+                        <button type="button" class="btn btn-primary btn-subscribe">subscribe</button>
+                    </div>
                 </div>
             </div>
-
         </section>
 
     </main>

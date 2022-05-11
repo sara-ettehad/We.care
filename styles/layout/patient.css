@@ -1,6 +1,5 @@
 .patients{
-    position: relative;
-    top: -300px;
+    margin-top: 50px;
 }
 
 .patients__header{
