@@ -50,6 +50,10 @@ html{
     color: var(--dark-color);
 }
 
+img{
+    object-fit: cover;
+}
+
 body{
     font-size: 1.5rem;
     background: var(--light-color);
