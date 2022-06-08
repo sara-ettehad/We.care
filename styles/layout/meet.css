@@ -35,6 +35,7 @@
 }
 
 .specialist-box img{
+    object-fit: cover;
     background-color: var(--secondary-color);
     height: 180px;
     width: 190px;
