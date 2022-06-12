@@ -1,2 +1,3 @@
 # We.care
-## Live Preview: https://parisa-ettd.github.io/We.care/
+
+#### I was mentored by <a href="https://github.com/dansalahi">@dansalahi</a> 👌
