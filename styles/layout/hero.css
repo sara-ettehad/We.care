@@ -102,7 +102,7 @@
 }
 
 .load-1 .syringe-holder {
-  animation: loading 4.3s linear infinite;
+  animation: loading 5s linear infinite;
 }  
 
 
@@ -137,7 +137,7 @@
 }
 
 .load-5 .stethoscope-holder {
-  animation: loading 3.3s linear infinite;
+  animation: loading 5.5s linear infinite;
 }  
 
 @keyframes loading {
@@ -174,7 +174,7 @@
 }
 
 .load-2 .set-holder {
-    animation: loading 3.3s linear infinite;
+    animation: loading 5.5s linear infinite;
   }  
 
   .set-holder{

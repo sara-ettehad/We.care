@@ -113,11 +113,3 @@ img{
 .btn-primary{
     color:  var(--light-color);
 }
-
-.btn-primary:hover{
-    background-color: transparent;
-    color: var(--dark-color);
-    background-color: var(--light-color);
-    border: none;
-}
-   
