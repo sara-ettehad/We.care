@@ -50,7 +50,7 @@
     height: 400px;
     width: 500px;
     position: relative;
-    right: 610px;
+    right: 1014px;
 }
 
 .hero__item--right i{
@@ -106,15 +106,9 @@
 }  
 
 
-.fa-capsules{
-    position: relative;
-    top: 200px;
-    left: 150px;
-}
-
 .load-5{
     position: relative;
-    right: 220px;
+    right: 630px;
     top: 70px;
 }
 
@@ -155,7 +149,35 @@
     }
   }
 
-.fa-hospital{
+
+.load-2{
     position: relative;
-    right: 530px;
+    top: -30px;
+    right: 300px;
 }
+
+
+.fa-capsules {
+    position: relative;
+    top: 81px;
+    left: 0;
+    width: 30px;;
+}
+
+.ring-3{
+    position: relative;
+    width: 440px;
+    height: 440px;
+    margin: 0 auto;
+    border: 1px solid #90e0ef;
+    border-radius: 100%;
+}
+
+.load-2 .set-holder {
+    animation: loading 3.3s linear infinite;
+  }  
+
+  .set-holder{
+    position: relative;
+    top: 200px;
+  }

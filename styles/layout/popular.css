@@ -55,6 +55,5 @@
 }
 
 .popular-box:hover{
-    border: 2px solid var(--primary-color);
     background-color: var(--accent-color);
 }

@@ -62,3 +62,10 @@
     right: 100px;
     top: 2px;
 }
+
+.sing-btn{
+    background: transparent;
+    color: var(--light-color);
+    border: none;
+    background-color: var(--primary-color);
+}

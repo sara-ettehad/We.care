@@ -13,6 +13,7 @@
     padding: 20px 50px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .subscribe__wrapper h2{
