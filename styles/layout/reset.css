@@ -78,7 +78,6 @@ img{
     justify-content: center;
     justify-items: center;
     border-radius: 2rem;
-    padding-top: 3rem;
 
     @media (max-width: 1100px) {
       grid-template-columns: 1fr 1fr;
